@@ -26,3 +26,21 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="courbet_global-user 13 TKQ1.221013.002 V14.0.3.0.TKQMIXM release-keys" \
     BuildFingerprint=Xiaomi/courbet/courbet:13/TKQ1.221013.002/V14.0.3.0.TKQMIXM:user/release-keys
+
+# Disable EPPE
+TARGET_DISABLE_EPPE := true
+
+# Blur
+TARGET_ENABLE_BLUR := true
+
+# Camera information
+AXION_CAMERA_REAR_INFO := 64,8,2
+AXION_CAMERA_FRONT_INFO := 16
+
+# Maintainer name
+AXION_MAINTAINER := EsTeh
+
+# Processor name
+AXION_PROCESSOR := Qualcomm_Snapdragon_732G_5G
+
+TARGET_BOOT_ANIMATION_RES := 1080
