@@ -27,9 +27,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="courbet_global-user 13 TKQ1.221013.002 V14.0.3.0.TKQMIXM release-keys" \
     BuildFingerprint=Xiaomi/courbet/courbet:13/TKQ1.221013.002/V14.0.3.0.TKQMIXM:user/release-keys
 
-# Disable EPPE
-TARGET_DISABLE_EPPE := true
-
 # Blur
 TARGET_ENABLE_BLUR := true
 
